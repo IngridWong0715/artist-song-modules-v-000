@@ -1,7 +1,8 @@
 module Findable
   def find_by_name(name)
-    def find_by_name(name)
+    
       self.all.detect{|o| o.name}
+    end
     end
     # matching = nil
     # ObjectSpace.each_object(self) do |instance|
@@ -14,7 +15,7 @@ module Findable
     # ObjectSpace.each_object(self).detect do |instance|
     #   instance.name == name
     # end
-end
+
 
 # def self.find_by_name(name)
 #   self.all.detect{|a| a.name == name}
